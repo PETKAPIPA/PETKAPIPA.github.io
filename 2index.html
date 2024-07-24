@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width = 1230">
+  <link rel="shortcut icon" href="images/vania.png">
+  <title>бегун онлайн</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header__top">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a href="/index.html" class="menu__list-link big">ЕЩЁ ИГРЫ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__content">
+        <div class="left-menu">
+          <span id="choose">Выбери жертву</span>
+          <div class="button-block">
+            <button id="fil" class="button-block__item" onclick="changeImage(fil)">Филипс</button>
+            <button id="peta" class="button-block__item" onclick="changeImage(peta)">Петкапипоо</button>
+            <button id="miron" class="button-block__item" onclick="changeImage(miron)">Мириксум</button>
+            <button id="ivan" class="button-block__item" onclick="changeImage(ivan)">Ваня про</button>
+          </div>
+        </div>
+
+        <div id="block"></div>
+      </div>
+        <img id="myImg" class="item" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" alt="">
+    </div>
+  </header>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+	font-family: "balqis";
+	src: url("fonts/balqis.woff2") format("woff2"),
+		url("fonts/balqis.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RobotoCondensed-Light";
+	src: url("fonts/RobotoCondensed-Light.woff2") format("woff2"),
+		url("fonts/RobotoCondensed-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RobotoCondensed-LightItalic";
+	src: url("fonts/RobotoCondensed-LightItalic.woff2") format("woff2"),
+		url("fonts/RobotoCondensed-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RobotoCondensed-Regular";
+	src: url("fonts/RobotoCondensed-Regular.woff2") format("woff2"),
+		url("fonts/RobotoCondensed-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PlaywriteNGModern-Regular";
+	src: url("fonts/PlaywriteNGModern-Regular.woff") format("woff");
+		font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	color: #fdfddb;
+	font-family: Arial, Helvetica, sans-serif;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	min-width: 1230px;
+}
+
+
+header {
+	background-image: url('../images/fon_osnovy.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	height: 100vh;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header__top {
+	width: 100%;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.header__top a:hover {
+	text-shadow: 1px 2px 12px rgb(252, 14, 14);
+}
+
+.menu {
+	/* width: 70%; */
+	display: flex;
+	justify-content: center;
+}
+
+.menu__list {
+	display: flex;
+	/* width: 70%; */
+	justify-content: center;
+}
+
+.menu__list-link {
+	display: block;
+	padding: 2rem;
+}
+
+.header__content {
+	display: flex;
+}
+
+.game-card {
+	font-family: RobotoCondensed-Regular;
+	display: flex;
+	width: 35%;
+	/* background-color: rgba(158, 158, 158, 0.199); */
+}
+
+.game-card__img-container {
+	display: flex;
+	width: 35%;
+}
+
+.game-card__img {
+	height: 30vh;
+}
+
+.game-card__content {
+	margin-top: 5%;
+}
+
+.game-card__src {
+	display: flex;
+}
