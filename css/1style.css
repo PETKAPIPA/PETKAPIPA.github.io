@@ -130,6 +130,7 @@ ul {
 
 .game-card__img {
 	height: 30vh;
+	max-width: ;
 }
 
 .game-card__content {
