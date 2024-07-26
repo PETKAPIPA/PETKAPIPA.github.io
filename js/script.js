@@ -6,7 +6,7 @@ block.onmousemove = function (e) {
   item.style.top = e.clientY + -20 + "px";
 };
 
-const peta = '../images/petia.png'
+const peta = '../images/peta3.png'
 const fil = '../images/filipp.png'
 const miron = '../images/miron.png'
 const ivan = '../images/vania.png'
