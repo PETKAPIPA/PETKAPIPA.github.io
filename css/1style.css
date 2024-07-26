@@ -110,13 +110,17 @@ ul {
 
 .header__content {
 	display: flex;
+	justify-content: space-around;
 }
 
 .game-card {
 	font-family: RobotoCondensed-Regular;
 	display: flex;
 	width: 35%;
-	/* background-color: rgba(158, 158, 158, 0.199); */
+	background-image: radial-gradient(circle, #ff0000, #cb6700, #938600, #5e9517, #259c5c, #00a28f, #00a4b9, #00a2d1, #009efa, #2390ff, #a371ff, #fe00ff);
+	/* background-image: radial-gradient(circle, #ff0000, #e17500, #b8a600, #8ac937, #53e48e, #00e9bb, #00ebe2, #00ebff, #00d9ff, #00bcff, #888cff, #fe00ff); */
+	border-radius: 10px;
+
 }
 
 .game-card__img-container {
@@ -130,8 +134,9 @@ ul {
 
 .game-card__content {
 	margin-top: 5%;
+	margin-right: 15px;
 }
 
 .game-card__src {
-	display: flex;
+	display: flex
 }
